@@ -1,0 +1,37 @@
+Azul oscuro - #003366 (Color base de inicio del degradado)
+
+Usos: Fondo o texto principal.
+
+
+Naranja - #ff6600 (Color base final del degradado)
+
+Usos: Botones, acentos o detalles importantes.
+
+Azul intermedio -rgba(0, 102, 204, 0.93) #0066cc
+
+Usos: Para resaltar elementos sin sobrecargar la paleta, puede ser usado en títulos o llamadas a la acción secundarias.
+
+
+Naranja suave - #ff9966
+
+Usos: Fondo de botones, sombras suaves, o elementos secundarios.
+
+
+Gris oscuro - #333333
+
+Usos: Texto principal o elementos de fondo contrastantes.
+
+
+Gris claro - #f5f5f5, #edecec
+
+Usos: Fondos de secciones, bordes sutiles, o para crear contraste en los formularios y campos de texto.
+
+
+Blanco - #ffffff
+
+Usos: Texto sobre fondos oscuros, iconos y elementos destacados.
+
+
+Amarillo dorado - #ffcc00
+
+Usos: Para resaltar detalles especiales, como iconos o llamadas a la acción importantes.

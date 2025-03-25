@@ -1,0 +1,144 @@
+:root {
+  --isabelline: #efe9e7ff;
+  --lavender-web: #dae0f2ff;
+  --mimi-pink: #f9cff2ff;
+  --palatinate: #52154eff;
+  --penn-blue: #111344ff;
+  --dark-lavender: #ADB2D4;
+  --pastel-teal: #C7D9DD;
+  --soft-sage: #D5E5D5;
+}
+
+html, body {
+  background-color: rgba(0, 0, 0, 0.017);
+  color: var(--penn-blue);
+  height: 100%vh;
+  width: 100%;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  overflow: auto;
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%; 
+}
+
+h1,h2,h3{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color : #0066cc;
+}
+  
+p{
+  font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+button, .btn-primary {
+  background-color:  #ff6600;
+  color: white;
+  border: none;
+  font-family: 'Montserrat Alternates', sans-serif !important; 
+  font-weight: 100;
+  font-style: normal;
+}
+button:hover, .btn-primary:hover {
+  background-color: #ff9966;
+}
+
+a {
+  color: #0066cc; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--mimi-pink); 
+}
+
+.card-title {
+  font-family: 'Montserrat Alternates', cursive; 
+}
+.card {
+  background:linear-gradient(45deg,#0066cc37, #ff660096);;
+  color: var(--penn-blue); 
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-text {
+  color: var(--penn-blue);
+}
+
+::placeholder {
+  font-family: 'Montserrat Alternates', sans-serif; 
+  color: #888;
+}
+
+input, select, textarea {
+  background-color: #edecec; 
+  color: var(--penn-blue);
+  border: 1px solid var(--dark-lavender);
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--palatinate); 
+}
+
+.custom-footer {
+  background-color: #003366;  
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.custom-navbar {
+  background: linear-gradient(to right, #003366, #ff6600);
+  color: var(--isabelline); 
+  padding: 1rem;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: var(--isabelline); 
+  font-family: 'Poiret One', cursive; 
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffcc00;
+}
+
+.custom-navbar .nav-link.active {
+  color: var(--palatinate);
+}
+
+.comment-box {
+  background-color: var(--isabelline);
+  color: var(--penn-blue);
+}
+
+.comment-bar {
+  background-color: rgb(248, 243, 241);
+  color: var(--penn-blue);
+}

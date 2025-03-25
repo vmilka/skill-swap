@@ -1,0 +1,59 @@
+.pageTitle {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    margin-top: 40px;
+  }
+  
+  .filtersRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .filterCol {
+    margin-bottom: 1rem;
+  }
+  
+  .cardContainer {
+    margin-top: 2rem;
+    }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+  
+  .cardImage {
+    border-radius: 50%;
+  }
+  
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+  
+  .cardTitle {
+    font-weight: bold;
+  }
+  
+  .cardText {
+    font-size: 0.9rem;
+  }
+  
+  .button {
+    margin-top: 1rem;
+    background-color: #003366;
+    border-color: #003366;
+    color: #fff;
+  }
+  
+  .button:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+  
